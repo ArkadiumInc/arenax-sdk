@@ -1,0 +1,23 @@
+{
+  "name": "arenax-sdk",
+  "version": "0.0.1",
+  "description": "module that covers integration of javascript based games into the arenax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ArkadiumInc/arenax-sdk.git"
+  },
+  "keywords": [
+    "arenax",
+    "games"
+  ],
+  "author": "Arkadium",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArkadiumInc/arenax-sdk/issues"
+  },
+  "homepage": "https://github.com/ArkadiumInc/arenax-sdk#readme"
+}
