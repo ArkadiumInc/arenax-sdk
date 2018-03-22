@@ -1,0 +1,30 @@
+{
+    "preview": "nfl.png",
+    "main": "main.min.js",
+    "slug": "demo",
+    "sdkName": "Demo",
+    "settings": {
+        "name": "Demo Game",
+        "description": "Enjoy demo game",
+        "thumbPath": "assets/thumbs/thumb2x.jpg",
+        "secondaryThumbPath": "assets/thumbs/secondary-thumb2x.jpg",
+        "screenshotPath": "assets/thumbs/screenshot.jpg",
+        "tags": [
+            "card",
+            "relaxing"
+        ]
+    },
+    "locales": [
+        {
+            "name": "fr",
+            "settings": {
+                "name": "Bridge",
+                "description": "",
+                "tags": [
+                    "carte",
+                    "relaxation"
+                ]
+            }
+        }
+    ]
+}

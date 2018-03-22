@@ -4,6 +4,7 @@
   "description": "module that covers integration of javascript based games into the arenax",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --content-base previews/arenax-preview --history-api-fallback --open --colors --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,19 @@
   "bugs": {
     "url": "https://github.com/ArkadiumInc/arenax-sdk/issues"
   },
-  "homepage": "https://github.com/ArkadiumInc/arenax-sdk#readme"
+  "homepage": "https://github.com/ArkadiumInc/arenax-sdk#readme",
+  "dependencies": {
+    "arenax-game-api": "0.0.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.5.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
 }
