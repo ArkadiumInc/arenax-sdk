@@ -13,6 +13,8 @@ module.exports = {
     render: function (width, height, elementId) {
       console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
       // your render code goes here
+      // make sure you render into elementId, either you can use initial width and height but make sure your game is dynamic
+      // and can scale
     }
   }
 }
