@@ -1,0 +1,30 @@
+{
+    "preview": "preview.png",
+    "main": "main.min.js",
+    "slug": "bridge",
+    "sdkName": "Bridge",
+    "settings": {
+        "name": "Demo Game",
+        "description": "Enjoy demo game",
+        "thumbPath": "assets/thumbs/thumb2x.jpg",
+        "secondaryThumbPath": "assets/thumbs/secondary-thumb2x.jpg",
+        "screenshotPath": "assets/thumbs/screenshot.jpg",
+        "tags": [
+            "card",
+            "relaxing"
+        ]
+    },
+    "locales": [
+        {
+            "name": "fr",
+            "settings": {
+                "name": "Bridge",
+                "description": "",
+                "tags": [
+                    "carte",
+                    "relaxation"
+                ]
+            }
+        }
+    ]
+}

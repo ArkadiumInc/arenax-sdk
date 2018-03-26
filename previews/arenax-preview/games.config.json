@@ -1,0 +1,158 @@
+[
+  {
+    "id": "games",
+    "games": [
+      {
+        "slug": "jigsaw",
+        "featured": null
+      },
+      {
+        "slug": "daily-jigsaw",
+        "featured": null
+      },
+      {
+        "slug": "mahjongg-solitaire",
+        "featured": null
+      },
+      {
+        "slug": "sudoku",
+        "featured": null
+      },
+      {
+        "slug": "word-wipe",
+        "featured": null
+      },
+      {
+        "slug": "candy-mahjongg",
+        "featured": null
+      },
+      {
+        "slug": "daily-crossword",
+        "featured": null
+      },
+      {
+        "slug": "bridge",
+        "assetOriginUrlOverride": "http://localhost:8080/",
+        "featured": null
+      },
+      {
+        "slug": "crescent-solitaire",
+        "featured": null
+      },
+      {
+        "slug": "tripeaks-solitaire",
+        "featured": null
+      },
+      {
+        "slug": "freecell-solitaire",
+        "featured": null
+      },
+      {
+        "slug": "slots-hollywood-dreams",
+        "featured": null
+      },
+      {
+        "slug": "landing-party",
+        "featured": null
+      },
+      {
+        "slug": "wander-words",
+        "featured": null
+      },
+      {
+        "slug": "alus-revenge-2",
+        "featured": null
+      },
+      {
+        "slug": "klondike-solitaire",
+        "featured": {
+          "text": "Hot"
+        }
+      },
+      {
+        "slug": "mahjongg-dimensions",
+        "featured": {
+          "text": "Hot"
+        }
+      },
+      {
+        "slug": "pyramid-solitaire",
+        "featured": {
+          "text": "Hot"
+        }
+      },
+      {
+        "slug": "spider-solitaire",
+        "featured": {
+          "text": "Hot"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tags",
+    "tags": [
+      {
+        "visible": false,
+        "name": "mahjongg"
+      },
+      {
+        "visible": false,
+        "name": "word"
+      },
+      {
+        "visible": true,
+        "name": "solitaire"
+      },
+      {
+        "visible": true,
+        "name": "card"
+      },
+      {
+        "visible": true,
+        "name": "casino"
+      },
+      {
+        "visible": false,
+        "name": "brain"
+      },
+      {
+        "visible": true,
+        "name": "matching"
+      },
+      {
+        "visible": true,
+        "name": "relaxing"
+      },
+      {
+        "visible": true,
+        "name": "exciting"
+      },
+      {
+        "visible": false,
+        "name": "speed"
+      }
+    ]
+  },
+  {
+    "id": "theme",
+    "settings": {
+      "name": "WP",
+      "slug": "theme-wp",
+      "domain": "gamelab.com",
+      "heading": "Mix it up at GameLab!",
+      "logoPath": "assets/gamelab/logo.png",
+      "logoSize": {
+        "width": "200",
+        "height": "50"
+      },
+      "locale": "en-US"
+    }
+  },
+  {
+    "id": "ad",
+    "settings": {
+      "product": "phoenix"
+    }
+  }
+]
