@@ -53,7 +53,7 @@ there 'src' folder with necessary assets that you should replace with your own, 
 
 To upload game package into arena you should update ArenaX package manifest that is located in [arenax.config.json](arenax.config.json)
 
-```json
+```javascript
 {
     "preview": "build/resources/assets/screenshot.jpg", //preview for promo
     "main": "main.min.js", // minimized package filename
