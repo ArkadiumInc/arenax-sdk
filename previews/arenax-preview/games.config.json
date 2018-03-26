@@ -31,7 +31,7 @@
         "featured": null
       },
       {
-        "slug": "bridge",
+        "slug": "demo",
         "assetOriginUrlOverride": "http://localhost:8080/",
         "featured": null
       },
@@ -153,6 +153,12 @@
     "id": "ad",
     "settings": {
       "product": "phoenix"
+    }
+  },
+  {
+    "id":"apiUrls",
+    "settings":{
+      "games":"http://localhost:8080/games"
     }
   }
 ]
