@@ -36,11 +36,6 @@
         "featured": null
       },
       {
-        "slug": "demo",
-        "assetOriginUrlOverride": "http://localhost:8080/",
-        "featured": null
-      },
-      {
         "slug": "crescent-solitaire",
         "featured": null
       },

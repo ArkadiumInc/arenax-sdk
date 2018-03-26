@@ -1,7 +1,7 @@
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-  devtool: 'cheap-source-map',
+  devtool: 'inline-source-map',
   devServer: {
     inline: true
   },
@@ -10,7 +10,7 @@ module.exports = {
     publicPath: '/',
     filename: '[name].min.js',
     libraryTarget: 'var',
-    library: ['__arenax_v1__', 'DemoGame']
+    library: ['__arenax_v1__', 'BridgeGame']
   },
   plugins: [
     new CopyWebpackPlugin(
