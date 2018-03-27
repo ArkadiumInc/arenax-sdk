@@ -19,6 +19,11 @@ module.exports = {
   },
   // entry point for the game
   entry: './entry/arenax/main.js',
+  module: {
+    rules: [
+      { test: /\.(js|jsx)$/, enforce: 'pre', use: 'eslint-loader' }
+    ]
+  },
   output: {
     publicPath: '/',
     filename: '[name].min.js',

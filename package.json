@@ -4,8 +4,8 @@
   "description": "module that covers integration of javascript based games into the arenax",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --content-base previews/arenax-preview --history-api-fallback --open --open-page games/demo --colors --progress",
-    "build": "webpack --config webpack.dist.config.js",
+    "start": "webpack-dev-server --mode development --content-base previews/arenax-preview --history-api-fallback --open --open-page games/demo --colors --progress",
+    "build": "webpack --mode production --config webpack.dist.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,15 +27,15 @@
   },
   "devDependencies": {
     "copy-webpack-plugin": "^4.5.1",
+    "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
+    "eslint-loader": "^2.0.0",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
-    "uglify-js-plugin": "0.0.6",
     "webpack": "^4.2.0",
     "webpack-cli": "^2.0.12",
-    "webpack-dev-server": "^3.1.1",
-    "webpack-uglify-js-plugin": "^1.1.9"
+    "webpack-dev-server": "^3.1.1"
   }
 }
