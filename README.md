@@ -1,13 +1,13 @@
 # Arenax SDK
 
 - [Arenax SDK](#arenax-sdk)
-  - [Intro](#intro)
-  - [Quick start](#quick-start)
-  - [Project structure](#project-structure)
-  - [ArenaX package manifest](#arenax-package-manifest)
-  - [ArenaX API](#arenax-api)
-    - [From Game to Arena:](#from-game-to-arena)
-    - [From Arena to Game](#from-arena-to-game)
+    - [Intro](#intro)
+    - [Quick start](#quick-start)
+    - [Project structure](#project-structure)
+    - [ArenaX package manifest](#arenax-package-manifest)
+    - [ArenaX API](#arenax-api)
+        - [From Game to Arena:](#from-game-to-arena)
+        - [From Arena to Game](#from-arena-to-game)
 
 ## Intro
 
@@ -123,6 +123,6 @@ let onGamePause = function(){
 let onGameResume = function(){
   // resume your game
 }
-arenaXApi.addAction('GAME_PAUSE', onGamePause) // notify arena that game started
-arenaXApi.addAction('GAME_RESUME', onGameResume) // refresh display ads
+arenaXApi.addAction('GAME_PAUSE', onGamePause) // Add action to "PAUSED" state
+arenaXApi.addAction('GAME_RESUME', onGameResume) // Add action to "RESUMED" state
 ```
