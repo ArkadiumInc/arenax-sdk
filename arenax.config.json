@@ -1,5 +1,4 @@
 {
-    "preview": "preview.png",
     "main": "main.min.js",
     "slug": "demo",
     "sdkName": "Demo",
@@ -9,6 +8,7 @@
         "thumbPath": "build/resources/assets/thumbs/thumb2x.jpg",
         "secondaryThumbPath": "build/resources/assets/thumbs/secondary-thumb2x.jpg",
         "screenshotPath": "build/resources/assets/thumbs/screenshot.jpg",
+        "promoThumbPath": "build/resources/assets/thumbs/promo-thumb.jpg",
         "tags": [
             "card",
             "relaxing"

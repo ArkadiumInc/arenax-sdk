@@ -55,7 +55,6 @@ To upload game package into arena you should update ArenaX package manifest that
 
 ```javascript
 {
-    "preview": "build/resources/assets/screenshot.jpg", //preview for promo
     "main": "main.min.js", // minimized package filename
     "slug": "demo", // navigation slug this will define url path to game: http://localhost:8080/games/demo if you change slug don't forget to update package.json start operation
     "sdkName": "Demo", // namespace for webpack library, at runtime it will be DemoGame
@@ -65,6 +64,7 @@ To upload game package into arena you should update ArenaX package manifest that
         "thumbPath": "build/resources/assets/thumbs/thumb2x.jpg", // thumbnail
         "secondaryThumbPath": "build/resources/assets/thumbs/secondary-thumb2x.jpg", // variation of thumbnail
         "screenshotPath": "build/resources/assets/thumbs/screenshot.jpg", // screen shot for main page
+        "promoThumbPath": "build/resources/assets/thumbs/promo-thumb.jpg", // preview for promo
         "tags": [
             "card", // search tags
             "relaxing" // search tags
