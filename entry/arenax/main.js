@@ -1,4 +1,4 @@
-import ArenaXApi from 'arenax-game-api'
+const ArenaXApi = require('arenax-game-api')
 window['ArenaXApi'] = ArenaXApi
 
 module.exports = {
