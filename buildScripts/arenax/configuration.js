@@ -3,13 +3,13 @@ var gameConfig = require('./gameConfig')
 var arenaXConfig = require('./arenaConfig')
 gameConfig.slug = arenaxGameConfig.slug
 gameConfig.id = arenaxGameConfig.slug
-gameConfig.name = arenaxGameConfig.settings.name
-gameConfig.description = arenaxGameConfig.settings.description
+gameConfig.name = arenaxGameConfig.locales[0].settings.name
+gameConfig.description = arenaxGameConfig.locales[0].settings.description
 gameConfig.thumbPath = arenaxGameConfig.settings.thumbPath
 gameConfig.screenshotPath = arenaxGameConfig.settings.screenshotPath
 gameConfig.secondaryThumbPath = arenaxGameConfig.settings.secondaryThumbPath
 gameConfig.sdkName = arenaxGameConfig.sdkName
-gameConfig.promoThumbPath = arenaxGameConfig.preview
+gameConfig.promoThumbPath = arenaxGameConfig.settings.promoThumbPath
 
 arenaXConfig.games[0].slug = arenaxGameConfig.slug
 
