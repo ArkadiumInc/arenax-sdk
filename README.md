@@ -59,19 +59,21 @@ To upload game package into arena you should update ArenaX package manifest that
     "slug": "demo", // navigation slug this will define url path to game: http://localhost:8080/games/demo if you change slug don't forget to update package.json start operation
     "sdkName": "Demo", // namespace for webpack library, at runtime it will be DemoGame
     "settings": {
-        "name": "Demo Game", // name of the game visible to user
-        "description": "Enjoy demo game", // short description of the games
         "thumbPath": "build/resources/assets/thumbs/thumb2x.jpg", // thumbnail
         "secondaryThumbPath": "build/resources/assets/thumbs/secondary-thumb2x.jpg", // variation of thumbnail
         "screenshotPath": "build/resources/assets/thumbs/screenshot.jpg", // screen shot for main page
-        "promoThumbPath": "build/resources/assets/thumbs/promo-thumb.jpg", // preview for promo
-        "tags": [
-            "card", // search tags
-            "relaxing" // search tags
-        ]
+        "promoThumbPath": "build/resources/assets/thumbs/promo-thumb.jpg" // preview for promo
     },
     //if you game supports localization it could be provided here
     "locales": [
+        {
+            "name": "Demo Game", // name of the game visible to user
+            "description": "Enjoy demo game", // short description of the games
+            "tags": [
+                "card", // search tags
+                "relaxing" // search tags
+            ]
+        },
         {
             "name": "fr",
             "settings": {
