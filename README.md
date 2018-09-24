@@ -64,15 +64,18 @@ To upload game package into arena you should update ArenaX package manifest that
         "screenshotPath": "build/resources/assets/thumbs/screenshot.jpg", // screen shot for main page
         "promoThumbPath": "build/resources/assets/thumbs/promo-thumb.jpg" // preview for promo
     },
-    //if you game supports localization it could be provided here
+    //Game metadata and localization
     "locales": [
         {
-            "name": "Demo Game", // name of the game visible to user
-            "description": "Enjoy demo game", // short description of the games
-            "tags": [
-                "card", // search tags
-                "relaxing" // search tags
-            ]
+            "name":"en"
+            "settings":{
+                "name": "Demo Game", // name of the game visible to user
+                "description": "Enjoy demo game", // short description of the games
+                "tags": [
+                    "card", // search tags
+                    "relaxing" // search tags
+                ]
+            }
         },
         {
             "name": "fr",
