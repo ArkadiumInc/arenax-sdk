@@ -1,20 +1,26 @@
 {
+    "version":"1.0",
     "main": "main.min.js",
     "slug": "demo",
     "sdkName": "Demo",
     "settings": {
-        "name": "Demo Game",
-        "description": "Enjoy demo game",
         "thumbPath": "build/resources/assets/thumbs/thumb2x.jpg",
         "secondaryThumbPath": "build/resources/assets/thumbs/secondary-thumb2x.jpg",
         "screenshotPath": "build/resources/assets/thumbs/screenshot.jpg",
-        "promoThumbPath": "build/resources/assets/thumbs/promo-thumb.jpg",
-        "tags": [
-            "card",
-            "relaxing"
-        ]
+        "promoThumbPath": "build/resources/assets/thumbs/promo-thumb.jpg"
     },
     "locales": [
+        {
+            "name": "en",
+            "settings": {
+                "name": "Demo Game",
+                "description": "Enjoy demo game",
+                "tags": [
+                    "card",
+                    "relaxing"
+                ]
+            }
+        },
         {
             "name": "fr",
             "settings": {
